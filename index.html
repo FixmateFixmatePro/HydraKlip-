@@ -2,74 +2,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>HydraKlip | Official Launch</title>
     <style>
         body {
-            margin: 0;
             font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            background: radial-gradient(circle, #1a1a1a 0%, #0d0d0d 100%);
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
             text-align: center;
         }
         header {
-            padding: 40px 20px;
+            padding: 2rem;
         }
-        img.logo {
-            max-width: 220px;
-            margin-bottom: 20px;
+        .logo {
+            max-width: 180px;
+            margin: auto;
         }
-        .content {
-            max-width: 900px;
-            padding: 20px;
+        h1 {
+            margin-top: 0.5rem;
+            font-size: 2rem;
         }
-        .product-img {
+        .hero {
+            margin: 2rem auto;
             max-width: 90%;
-            border-radius: 12px;
-            margin: 20px 0;
-            box-shadow: 0 0 10px #00000080;
-        }
-        .tally-box {
-            margin-top: 30px;
-            padding: 20px;
-            background: #ffffff10;
+            box-shadow: 0 0 20px rgba(0,0,0,0.8);
             border-radius: 12px;
         }
-        a.button {
+        .section {
+            padding: 2rem;
+            background: #121212;
+            margin: 1rem;
+            border-radius: 10px;
+        }
+        .button {
             display: inline-block;
-            margin-top: 15px;
-            padding: 12px 24px;
-            background: #4caf50;
-            color: #fff;
-            border-radius: 8px;
+            margin-top: 1rem;
+            padding: 12px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 6px;
             text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #999;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="HydraKlip Logo" class="logo">
-        <h1>HydraKlip: The Future of Clean Cannabis Consumption</h1>
+        <img src="logo.png" alt="HydraKlip Logo" class="logo"/>
+        <h1>HydraKlip</h1>
+        <p>The World's First Tourmaline-Ionized, Filtered, LED-Enhanced Portable Smoking Device</p>
     </header>
-    <div class="content">
-        <p>Introducing the world’s first **tourmaline-ionized**, **percolated**, and **customizable** cannabis smoking device—built for health, luxury, and performance.</p>
-        <p>Seamlessly integrating magnetic tools, variable power control, LED customization, and spill-proof design—all **made in the USA** and built to last a lifetime.</p>
+    <img src="product.png" alt="HydraKlip Render" class="hero" />
 
-        <img src="hydraklip_render.jpg" alt="HydraKlip Product" class="product-img">
-        <img src="hydraklip_live_action.jpg" alt="Live Action" class="product-img">
-
-        <div class="tally-box">
-            <h2>Investor Dashboard</h2>
-            <p>Total Contributions: <strong>$124,300</strong></p>
-            <p>Your Contribution: <strong>Private (Viewable Only to You)</strong></p>
-            <a href="mailto:HydraKlipOfficial@gmail.com" class="button">Contact Us</a>
-            <br><br>
-            <a href="https://venmo.com/HydraKlip" class="button">Contribute via Venmo</a>
-        </div>
+    <div class="section">
+        <h2>Features</h2>
+        <ul style="text-align:left; max-width: 700px; margin:auto;">
+            <li>✅ Tourmaline Ionization Chamber (California-Sourced)</li>
+            <li>✅ Spill-Proof, Ergonomic Mouthpiece</li>
+            <li>✅ Adjustable Power Dial (Potentiometer Control)</li>
+            <li>✅ LED Programmable Lighting & Fast-Charge</li>
+            <li>✅ Magnetic Bowl Chamber (Doubles as Oil Burner)</li>
+            <li>✅ IPX8 Sealed, Flask-Like Durable Design</li>
+            <li>✅ Optional Organic Flavor Filters (Sustainably Sourced)</li>
+        </ul>
+        <a href="mailto:HydraKlipOfficial@gmail.com" class="button">Email Us</a>
+        <a href="https://venmo.com/HydraKlip" class="button">Contribute on Venmo</a>
     </div>
+
+    <footer>
+        &copy; 2025 HydraKlip™ | All rights reserved.
+    </footer>
 </body>
 </html>
